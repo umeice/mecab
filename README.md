@@ -1,0 +1,4 @@
+mecab
+=====
+
+MeCab Dockerfile.
