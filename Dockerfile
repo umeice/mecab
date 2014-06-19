@@ -36,7 +36,7 @@ RUN \
   wget https://mecab.googlecode.com/files/mecab-python-0.996.tar.gz && \
   tar xvzf mecab-python-0.996.tar.gz && \
   cd mecab-python-0.996 && \
-  python setupy.py install
+  python setup.py install
 
 
 # Define mountable directories.
