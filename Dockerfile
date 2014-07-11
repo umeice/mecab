@@ -5,17 +5,9 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM umeice/python
 
 MAINTAINER @bungoume <bungoume@gmail.com>
-
-# Install Python.
-RUN \
-  apt-get update && apt-get upgrade -y && \
-  apt-get install -y python python-dev && \
-  wget https://bootstrap.pypa.io/ez_setup.py -O - | python && \
-  easy_install pip
-
 
 # Install MeCab.
 RUN \
